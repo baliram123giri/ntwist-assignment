@@ -1,0 +1,42 @@
+footer {
+    background: #081528;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    z-index: 1;
+    position: relative;
+    bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 10px 0px;
+}
+
+footer ul a,
+footer ul a:hover {
+    color: #fff;
+    font-size: 15px;
+}
+
+footer .social button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 8px 10px;
+    transition: all 0.5s;
+}
+
+footer .social button:last-child {
+    margin-left: 8px;
+}
+
+footer .social button:hover {
+    background: #146C94;
+    border-radius: 4px;
+}

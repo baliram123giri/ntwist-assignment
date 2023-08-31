@@ -1,0 +1,81 @@
+nav {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: all 1s;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul a {
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+nav ul a::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul a:hover {
+    border-color: #333;
+}
+
+.scroll-bottom nav ul a:hover::after {
+    width: 100%;
+    background: #213555;
+}
+
+.scroll-top nav ul a:hover::after {
+    width: 100%;
+    background: #ffffff;
+}
+
+.scroll-top a {
+    color: #fff;
+}
+
+.scroll-bottom {
+    background: #fff;
+    box-shadow: 0px 1px 4px #333333b0;
+}
+
+.scroll-bottom a {
+    color: #213555;
+}
+
+/* //sub nave  */
+.sub-nav {
+    width: 300px;
+    background: #fff;
+    padding: 30px 20px;
+
+}
+
+.sub-nav ul {
+    flex-direction: column;
+    gap: 20px;
+}
+.sub-nav ul a{
+    color: #213555;
+}
+.scroll-top .sub-nav ul a:hover::after {
+    width: 100%;
+    background: #213555;
+}

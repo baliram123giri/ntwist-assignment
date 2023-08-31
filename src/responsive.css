@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 20px !important;
+    }
+
+    footer h1 {
+        font-size: 15px !important;
+    }
+
+    .fs-6 {
+        font-size: 12px !important;
+    }
+
+    .col-12 {
+        margin-top: 10px;
+    }
+
+    .mobile-feed {
+        margin-top: 5px !important;
+    }
+
+    .home .banner {
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    header nav ul {
+        display: none !important;
+    }
+
+    .sustainability .banner,
+    .mineral .banner,
+    .mine .banner,
+    .ai .banner,
+    .contact .banner,
+    .blog .banner,
+    .oil .banner {
+        background-position-y: 0 !important;
+    }
+
+    .sustainability h1:last-child,
+    .mineral h1:last-child,
+    .mine h1:last-child,
+    .ai h1:last-child,
+    .blog h1:last-child,
+    .oil h1:last-child {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bar {
+        display: none;
+    }
+}
